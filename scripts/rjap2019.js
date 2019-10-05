@@ -1,4 +1,18 @@
 var main = function() {
+	$("#navBarBtn").click(function()
+	{
+		$("#NavBar").animate({width: 'toggle'}, 350);
+	});
+	
+	$("#karttaBtn").click(function()
+	{
+		$("#collapseKartta").toggle();
+		$("#collapseOhjelma").hide();
+		$("#collapseMenu").hide();
+		$("#collapseLuckyEmblems").hide();
+		$("#collapseMorsiamen").hide();
+	});
+	
 	$("#ohjelmaBtn").click(function()
 	{
 		$("#collapseOhjelma").toggle();

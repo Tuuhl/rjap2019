@@ -2,6 +2,7 @@
 	font-family: Verdana, 'Open Sans', sans-serif;
 	color: white;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .haaHashtag {
@@ -23,4 +24,16 @@
 
 .menuItemContainer {
 	display: none;
+}
+
+.sideNavBar {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
 }
